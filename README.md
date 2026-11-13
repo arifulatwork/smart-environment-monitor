@@ -2,6 +2,10 @@
 
 A Java-based Smart Environment Monitoring application that processes sensor data, calculates environmental statistics, detects abnormal temperature readings, and generates a JSON report.
 
+
+**GitHub Repository:** 
+https://github.com/arifulatwork/smart-environment-monitor
+
 ## Features
 
 - Reads environmental data from multiple sensors.
