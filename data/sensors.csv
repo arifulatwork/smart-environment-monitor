@@ -1,0 +1,6 @@
+sensor_id,temperature,humidity
+SENSOR_01,22.5,55
+SENSOR_02,25.1,62
+SENSOR_03,31.5,78
+SENSOR_04,19.2,45
+SENSOR_05,28.4,68
