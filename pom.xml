@@ -16,7 +16,13 @@
     <description>
         A Java application for environmental sensor data analysis.
     </description>
-    <url>https://github.com/YOUR_USERNAME/smart-environment-monitor</url>
+    <url>https://github.com/arifulatwork/smart-environment-monitor</url>
+
+    <scm>
+    <connection>scm:git:git://github.com/arifulatwork/smart-environment-monitor.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/arifulatwork/smart-environment-monitor.git</developerConnection>
+    <url>https://github.com/arifulatwork/smart-environment-monitor</url>
+</scm>
 
     <!-- Build properties -->
     <properties>
@@ -62,7 +68,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.14.1</version>
                 <configuration>
-                    <release>21</release>
+                    <release>${maven.compiler.release}</release>
                 </configuration>
             </plugin>
 
